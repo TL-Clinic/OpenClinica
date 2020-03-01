@@ -54,5 +54,5 @@ services:
       restart: "on-failure:5"
 
 volumes:
-  - ocdb-data:
-  - oc-data:
+  ocdb-data:
+  oc-data:
