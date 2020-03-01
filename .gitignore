@@ -1,3 +1,6 @@
+push
+pull
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup
