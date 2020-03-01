@@ -1,5 +1,6 @@
 push
 pull
+vscode.code-workspace
 
 target/
 pom.xml.tag
