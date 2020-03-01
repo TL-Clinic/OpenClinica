@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-    postgis:
+    postgres:
         image: "postgres:9.6"
         hostname: openclinicadb
         domainname: tlclinic.com
@@ -49,3 +49,6 @@ services:
         - "DB_PASS=clinica"
         - "DB_PORT=5432"
         - "SUPPORT_URL=\"https://www.openclinica.com/community-edition-open-source-edc/\""
+      depends_on:
+        - "postgres"
+      restart: "on-failure:5"
