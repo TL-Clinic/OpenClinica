@@ -18,7 +18,7 @@ services:
         restart: "on-failure:5"
 
     pgadmin:
-        image: "dpage/pgadmin4:4.5"
+        image: "dpage/pgadmin4:4"
         hostname: pgadmin
         domainname: tlclinic.com
         ports:
@@ -52,3 +52,7 @@ services:
       depends_on:
         - "postgres"
       restart: "on-failure:5"
+
+volumes:
+  - ocdb-data:
+  - oc-data:
