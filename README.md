@@ -1,3 +1,5 @@
+![Docker](https://github.com/TL-Clinic/OpenClinica/workflows/Docker/badge.svg)
+
 # Welcome!
 
 OpenClinica is open source software for Electronic Data Capture (EDC) and Clinical Data Management (CDM). It optimizes clinical trial workflows and maximizes data quality in a smart and secure fashion. Use OpenClinica for:
